@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+#body {
+    background: #fff;
+}
+.container {
+    margin: 0 40px;
+}
+.s-1 {
+    display: flex;
+    justify-content: space-between;
+}
+#logo {
+    width: 300px;
+    height: 75px;
+  }
+  .quote {
+    padding: 15px;
+    font-size: 40px;
+  }
+  .contact {
+    padding: 30px;
+    font-size: 20px;
+  }
+  .navigation {
+    background: #9e032a;
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    height: 35px;
+  }
+  nav ul li {
+    list-style: none;
+    margin-right: 4vw;
+  }
+   nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    color:#fff;
+  }   
+  nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition:0.5s;
+  }
+  nav ul li a:hover::after {
+    width: 100%;
+  }
+  .row {
+    display: flex;
+    align-items: center;
+  }
+  .row-1 {
+    flex-basis: 35%;
+  }
+  .row-2 {
+    flex-basis: 65%;
+    /* background-color: #ababab; */
+  }
+  .row-2 h2 {
+    font-size: 60px;
+    color: #9e032a;
+  }
+  #radiant {
+    font-size: 100px;
+    color: #033a6b;
+  }
+  .row-2 p {
+    font-size: 20px;
+    color: #033a6b;
+    font-weight: bold;
+  }
+  .row-2 p i {
+    font-size: 50px;
+    color: #9e032a;
+  }
+  .misscall {
+    margin-top: 20px;
+    background-color: #9e032a ;
+    display: inline-block;
+    font-size: 30px;
+    color: #fff;
+  }
+  /* ------------Book Test---------- */
+  .two{
+    background: #f2f2f2;
+    padding: 20px 0;
+  }
+ 
+  .form {
+    width: 40%;
+    border-top: 3px solid blue;
+    height: 700px;
+    background: #fff;
+    margin: auto;
+    box-shadow: 0 0 5px 5px #ababab;
+
+  }
+  .form h3 {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(66, 66, 249);
+  }
+  .input-form {
+    width: 60%;
+    margin: 10px auto;
+  }
+  .input-element {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    font-size: 15px;
+  }
+  .radio-button {
+    margin-right: 5px;
+  }
+  .reset {
+    width: 40%;
+    padding: 10px;
+    font-size: 15px;
+  }
+  .submit {
+    background-color: #9e032a;
+    color: #fff;
+  }
+  .submit:hover {
+    background: #033a6b;
+  }
+  /* --------Health Packages--------- */
+  .container h3 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #033a6b;
+  }
+  .packages {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 10px; */
+    justify-content: center;
+    gap: 40px 30px;
+  }
+  .box {
+    width: 15%;
+    height: 200px;
+    border: 2px solid black;
+    background-color: #033a6b;
+    border-radius: 6px;
+    transition: transform 0.5s;
+    color: #fff;
+  }
+  .box:hover {
+    transform: translateY(-6px);
+    background-color: #9e032a;
+  }
+  .type {
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .testno {
+    font-size: 16px;
+    width: 75%;
+    margin: 20px auto;
+    font-weight: bold;
+  }
+  .price {
+    margin-top: 20px;
+    width: 70%;
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .box i {
+    width: 50%;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    padding-left: 55px;
+  }
+  .container.three {
+    background-image: url("doctor_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+  }
+  .about-us {
+    width: 20%;
+    margin-left: 50px;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+  }
+  .about p {
+    width: 40%;
+    margin: 30px;
+    font-size: 25px;
+    text-align: justify;
+  }
+  /* -------Contact Us------- */
+  .contact-us {
+    width: 60%;
+    height: 400px;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+  }
+  .box-1 {
+    width: 25%;
+    /* border: 2px solid black; */
+    margin: 20px 0;
+    background: #fff;
+  }
+  .container {
+    background: #f2f2f2;
+  }
+  .quick-link {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+
+  }
+  .nav ul li {
+    list-style: none;
+    padding: 10px;
+  }
+  .nav ul li a {
+    text-decoration: none;
+    color: #757373;
+  }
+  .logo {
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .logo img {
+    width:200px;
+  }
+  .address {
+    width: 90%;
+    margin: auto;
+    color: #757373;
+  }
+  .phone {
+    width: 90%;
+    margin: auto;
+    color: #757373;
+    margin: 10px auto;
+  }
+  .phone a {
+    text-decoration: none;
+    color: #757373;
+  }
+  .fa-brands {
+    color: #9e032a;
+  }
+  .fa-regular {
+    color: #9e032a; 
+  }
+  .social-icon {
+    margin: 20px auto;
+    font-size: 20px;
+    width: 90%;
+  }
+  .copyright {
+    text-align: center;
+    padding: 10px;
+    background: #9e032a;
+    color: #fff;
+  }
+  .back-to-top a {
+    font-size: 50px;
+    margin-left: 90vw;
+  }
+ marquee {
+  font-size: 25px;
+  margin: 10px 0;
+  color: #fff;
+  background: #9e032a ;
+ }
